@@ -1,0 +1,82 @@
+---
+import Pattern from "@/components/ui/pattern.astro";
+import PageLayout from "@/layouts/page-layout.astro";
+
+import Box from "@/components/box/index.astro";
+import BoxHeader from "@/components/box/header.astro";
+import BoxTitle from "@/components/box/title.astro";
+import { getCollection } from "astro:content";
+import ProjectItem from "@/components/sections/projects/project-item.astro";
+
+const projects = await getCollection("projects");
+
+const coreProjects = projects.filter(project => project.data.type === "core");
+const pubProjects = projects.filter(project => project.data.type === "pub");
+const schProjects = projects.filter(project => project.data.type === "sch");
+const pptProjects = projects.filter(project => project.data.type === "ppt");
+const repProjects = projects.filter(project => project.data.type === "rep");
+---
+
+<PageLayout
+  description="A collection of things I’ve built."
+  title="Projects, Publications, Research, Posters, Presentations, Technical Reports..."
+>
+  <Pattern />
+  <Box>
+    <BoxHeader>
+      <BoxTitle> Projects </BoxTitle>
+    </BoxHeader>
+
+    {coreProjects.map(item => <ProjectItem project={item} />)}
+  </Box>
+
+  {
+    pubProjects.length > 0 && (
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>Publications</BoxTitle>
+        </BoxHeader>
+        {pubProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    )
+  }
+
+  {
+    schProjects.length > 0 && (
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>Research</BoxTitle>
+        </BoxHeader>
+        {schProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    )
+  }
+
+  {
+    pptProjects.length > 0 && (
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>Posters & Presentations</BoxTitle>
+        </BoxHeader>
+        {pptProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    )
+  }
+
+  {
+    repProjects.length > 0 && (
+      <Pattern />
+      <Box>
+        <BoxHeader>
+          <BoxTitle>Technical Reports</BoxTitle>
+        </BoxHeader>
+        {repProjects.map(item => <ProjectItem project={item} />)}
+      </Box>
+    )
+  }
+ 
+  <Pattern />
+</PageLayout>
