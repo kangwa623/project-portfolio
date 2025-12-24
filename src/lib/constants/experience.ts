@@ -3,10 +3,10 @@ import type { Experience } from "../types";
 export const EXPERIENCES: Experience[] = [
 
   {
-    company: "DataLab Research Group",
+    company: "The University of Zambia",
     positions: [
       {
-        title: "Undergraduate Researcher",
+        title: "Research Assistant - AI Medical Imaging | DataLab Research Group",
         year: "Mar 2025 - Present",
         description: `
 - ♦ Lemme build something cool first... then I'll tell you what I did 😉.
@@ -251,7 +251,7 @@ export const EXPERIENCES: Experience[] = [
       },
       {
         title: "3rd Place - IEEE IAS IPCSD Engineering Design Contest Africa",
-        year: "IEEE Industrial Applications Society - Industrial Power Conversion Systems Department • Oct 2024",
+        year: "Institute of Electrical and Electronic Engineers, Industrial Applications Society - Industrial Power Conversion Systems Department • Oct 2024",
         description: `
 - ♦ Implemented **backend functionalities**, designed **database models**, and optimized APIs using **FastAPI, Python, and MongoDB**.
 - ♦ Developed and maintained a **background worker system** using **ARQ and Redis**.
