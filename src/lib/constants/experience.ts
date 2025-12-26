@@ -25,6 +25,7 @@ export const EXPERIENCES: Experience[] = [
           "Playwright",
           "Vite",
           "Nx",
+          "Java",
         ]
       },
     ],
