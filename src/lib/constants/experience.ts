@@ -6,7 +6,7 @@ export const EXPERIENCES: Experience[] = [
     company: "The University of Zambia",
     positions: [
       {
-        title: "Research Assistant - AI Medical Imaging | DataLab Research Group",
+        title: "Research Assistant - Enterprise Medical Imaging | DataLab Research Group",
         year: "Mar 2025 - Present",
         description: `
 - ♦ Lemme build something cool first... then I'll tell you what I did 😉.
