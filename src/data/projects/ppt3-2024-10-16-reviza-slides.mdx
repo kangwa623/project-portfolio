@@ -2,7 +2,7 @@
 name: ReviZa - Revolutionizing Studying
 type: ppt
 image: /og-images/projects/slides-moe24-zambia@60-reviza_pitch.jpg
-sourceCode: https://zam60.grz.gov.zm/?p=12707
+sourceCode: https://reviza.info/
 preview: /docs/slides-moe24-zambia@60-reviza_pitch.pdf
 technologies:
   - Bootstrap
@@ -15,88 +15,64 @@ description: Slides | Zambia@60 National ICT Hackathon, Lusaka, Zambia, October 
 
 ![Competition Poster](/og-images/projects/slides-moe24-zambia@60-reviza_pitch.jpg)
 
-## **Overview**  
-AI Code Converter is a web application that enables developers to effortlessly translate code snippets between different programming languages. Built with the **MERN stack** and integrated with the **ChatGPT API**, it provides **accurate and context-aware** code translations in a **user-friendly interface**.  
+## **Introduction**  
+ReviZa is a mobile application designed to facilitate the sharing and access of past papers and 
+other academic resources specifically for university students. This project was conceptualized in 
+response to a significant challenge faced by the student population: the scarcity of centralized, 
+high-quality academic resources. Currently, students rely heavily on platforms like WhatsApp 
+and Telegram to share study materials. However, these platforms are not optimized for academic 
+use and often result in disorganized and repeated sharing of files, leading to inefficiencies in 
+accessing study resources.   
 
-## **Objectives**  
-- Simplify **code translation** between programming languages.  
-- Provide **an intuitive UI** for quick and efficient usage.  
-- Ensure **secure authentication** for user sessions.  
-- Offer **history tracking** for past conversions.  
+## **Problem Statement**  
+The primary problem addressed by ReviZa is the lack of streamlined, high-quality, and 
+centralized access to study materials for Zambian university students. The unstructured 
+distribution of materials across various messaging applications not only hinders efficient access 
+but also poses challenges in revising and retaining academic information effectively. Our goal 
+was to create a specialized platform tailored to meet the unique needs of university students in 
+Zambia. 
 
-## **Features**  
-✅ **Language Agnostic** – Convert code between various languages.  
-✅ **Secure Authentication** – Uses JWT-based authentication.  
-✅ **User-Friendly Interface** – Minimal and intuitive UI.  
-✅ **Dark & Light Mode** – Seamless theme switching.  
-✅ **ChatGPT Integration** – AI-powered accurate translations.  
-✅ **History Tracking** – Save and revisit past conversions.  
+## **Market Research**
+To better understand the market, we analysed similar applications, including Khan Academy, 
+Studocu, and Estudy. Although these applications provide educational content, we observed 
+several limitations:
 
-## **Tech Stack**  
-- **Frontend:** React.js, TailwindCSS, Zustand  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **API:** ChatGPT API  
+- **Khan Academy:** While highly educational, this platform does not cater to the Zambian 
+university curriculum, which limits its effectiveness for our target audience.  
 
-## **Installation & Setup**  
+- **Studocu:** This platform has a wide range of materials, but it lacks alignment with the Zambian 
+syllabus, making it less relevant to local students.   
 
-### **Prerequisites**  
-Ensure you have **Node.js** and **npm** installed.  
+- **Estudy:** Although this application focuses on academic material, it lacks sufficient content to 
+fully support students in higher education.  
 
-### **Steps to Install**  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Louai-Zokerburg/AI-Code-Converter.git
-   ```  
-2. Navigate to the project folder:  
-   ```bash
-   cd AI-Code-Converter
-   ```  
-3. Install server dependencies:  
-   ```bash
-   npm install
-   ```  
-4. Navigate to the client folder and install dependencies:  
-   ```bash
-   cd client
-   npm install
-   ```  
-5. Create a **`.env`** file in the root directory and add:  
-   ```js
-   MONGO_URI=
-   JWT_SECRET=
-   JWT_LIFETIME=
-   OPENAI_API_KEY=
-   ```  
-6. Start the backend server:  
-   ```bash
-   npm start
-   ```  
-7. Start the client development server:  
-   ```bash
-   cd client
-   npm run dev
-   ```  
-8. Open **`http://localhost:5173`** in your browser.  
+Based on our research, we identified an opportunity to develop an application specifically 
+designed to address the needs of Zambian university students.  
 
-## **Usage**  
-1. **Sign up or log in** to your account.  
-2. **Select the source language** for your code.  
-3. **Paste your code snippet** into the editor.  
-4. **Choose the target language** for translation.  
-5. Click **"Convert"** and view the output.  
-6. **Access your translation history** anytime.  
+## **Target Audience**  
+The primary audience for ReviZa is higher education students in Zambia who require access to 
+study materials tailored to the local university curriculum. This includes students from diverse 
+academic disciplines who seek reliable resources to enhance their learning and revision 
+processes.
 
----
+## **Accomplishments**  
+The mobile app was built and deployed on the Google Play Store, with future plans of deploying it on the App Store. 
+The funding secured by winning the hackathon, helped facilitate the costs associated with the initial launch.
 
-This **AI-powered code converter** simplifies multi-language development, making it an essential tool for programmers! 🚀  
+## **Challenges**  
+Firstly, the main challenge experienced was the issue of ownership and copyright. This challenge 
+was mitigated by limiting access to the material to students only. This was further implemented 
+by using student identification cards to verify that the user is indeed a student.
 
-### **How This Matches Your Structure:**
-✅ **Screenshot** – Included at the top.  
-✅ **Overview** – Short, impactful description of the app.  
-✅ **Objectives** – Clearly listed goals.  
-✅ **Features** – Highlighted key functionalities.  
-✅ **Tech Stack** – Listed technologies used.  
-✅ **Live Demo** – Added a direct link.  
-✅ **Installation** – Step-by-step guide.  
-✅ **Usage** – Clear instructions on how to use the app.  
+Secondly, hosting was another challenge that arose, mainly because a system of such caliber 
+requires hosting fees for Google Cloud storage. 
+
+Finally, attracting initial investors was challenging until we participated in the Zambia@60 
+hackathon, where our vision and the potential impact on the Zambian e-learning landscape 
+gained support. 
+
+## **Conclusion**  
+ReviZa has the potential to revolutionize education and the e-learning landscape in Zambia and 
+across Africa by building on sustainable business models from the Western world and local 
+competitors, while offering a unique selling point that is both cost-effective for the African 
+market and profitable. 

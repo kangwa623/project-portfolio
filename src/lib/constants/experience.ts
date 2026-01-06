@@ -3,7 +3,7 @@ import type { Experience } from "../types";
 export const EXPERIENCES: Experience[] = [
 
   {
-    company: "The University of Zambia",
+    company: "University of Zambia",
     positions: [
       {
         title: "Research Assistant - Enterprise Medical Imaging | DataLab Research Group",

@@ -20,98 +20,15 @@ description: Conference Paper | *M. M. Makumba, J. C. Moya, D. Banda and K. E. M
 
 ![IHTC25 Cover](/og-images/projects/papers-ihtc25.jpg)
 
-## **Overview**
-Louligram is a **feature-rich social media application** inspired by Instagram, allowing users to share, like, save, and explore posts. It provides a beautiful **dark & light theme**, smooth UI, and secure authentication. Powered by **Next.js, React, Hono.js, and Appwrite**, Louligram ensures a modern and scalable experience.
+## **Abstract**
 
-## **Features**
-✅ **User Authentication** – Secure sign-up and sign-in with Appwrite.  
-✅ **Post Interaction** – Create, like, save, and explore posts easily.  
-✅ **Follow System** – Follow and connect with other users.  
-✅ **User Profiles** – View personal and public profiles with followers.  
-✅ **Dynamic Theming** – Switch between **light and dark mode**.  
-✅ **Full Responsiveness** – Works seamlessly on mobile and desktop.  
-
-## **Tech Stack**
-- **Frontend:** React, Tailwind CSS, React Context React Query  
-- **Backend, Database & Auth:** Appwrite  
-
----
-
-## **Installation & Setup**
-### **Prerequisites**
-Ensure you have **Node.js**, **npm**, and an **Appwrite instance** set up.
-
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/Louai-Zokerburg/louligram-social-media-app.git
-cd louligram-social-media-app
-```
-
-### **2. Install Dependencies**
-```bash
-npm install
-```
-
-### **3. Configure Appwrite**
-1. **Log in to Appwrite Console** and create a new project.  
-2. **Set up the database and collections:**
-   - **Database Name:** `louligram-db`
-   - **Collections:**  
-     - `users`
-     - `posts`
-     - `saves`
-3. **Define Collection Attributes:**  
-
-   **Saves Collection:**
-   | Property | Type |
-   | --- | --- |
-   | user | Relationship (User) |
-   | post | Relationship (Post) |
-
-   **Posts Collection:**
-   | Property | Type |
-   | --- | --- |
-   | creator | Relationship (User) |
-   | likes | Relationship (Users) |
-   | caption | String |
-   | tags | Array (String) |
-   | imageUrl | URL |
-   | imageId | String |
-   | location | String |
-   | saves | Relationship (Saves) |
-
-   **Indexes for Efficient Search:**
-   | Key | Type | Attributes | Order |
-   | --- | --- | --- | --- |
-   | caption | Fulltext | caption | DESC |
-
-### **4. Set Up Environment Variables**
-Create a `.env.local` file and add the following:
-```js
-VITE_APPWRITE_PROJECT_ID=
-VITE_APPWRITE_URL=
-VITE_APPWRITE_DATABASE_ID=
-VITE_APPWRITE_STORAGE_ID=
-VITE_APPWRITE_USER_COLLECTION_ID=
-VITE_APPWRITE_POST_COLLECTION_ID=
-VITE_APPWRITE_SAVES_COLLECTION_ID=
-```
-
-### **5. Start the Development Server**
-```bash
-npm run dev
-```
-
-### **6. Open the App**
-Visit **`http://localhost:5173`** in your browser.
-
----
-
-## **Usage Guide**
-1. **Sign Up or Log In** – Create an account or log in.  
-2. **Explore Posts** – Browse posts from other users.  
-3. **Follow Users** – Connect with people by following them.  
-4. **Create & Like Posts** – Share content and interact with posts.  
-5. **Save Posts** – Bookmark posts for later viewing.  
-
-Enjoy using **Louligram** – A modern, open-source social media experience! 🚀
+The agricultural sector is one of the beneficiaries of technological advancements. Innovative solutions help address challenges and improve efficiency. 
+Some of the challenges include too much time spent on physical monitoring, nutrient depletion due to grazing on specific patches of land, and the loss or theft of livestock. 
+One solution is the implementation of real-time location and health monitoring of livestock. 
+This paper explores the development of a low-cost functional GPS-based tracking device facilitated by in-house PCB manufacturing. 
+The device was designed to integrate an ESP32-S3-WROOM-1 microcontroller, a Quectel LC86G GNSS module, and an MPU-6050 accelerometer. 
+The microcontroller chosen enabled efficient, low-power, peer-to-peer communication in a network, eliminating the need for cellular infrastructure. 
+The PCB was designed using KiCad and developed using the Dry Film Photoresist Method. 
+Field testing demonstrated a reliable communication range of approximately 210 meters between two sensor nodes, thus validating the system’s ability to track animal movements and patterns. 
+This prototype demonstrated the potential of locally built, cost-effective IoT solutions in promoting Precision Livestock Farming, thus enhancing livestock welfare. 
+It demonstrated the capacity to produce a Minimum Viable Product specifically tailored to the needs of rural and underserved communities, thus promoting inclusion in the technology revolution.
