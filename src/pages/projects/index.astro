@@ -18,8 +18,8 @@ const repProjects = projects.filter(project => project.data.type === "rep");
 ---
 
 <PageLayout
-  description="A collection of things I’ve built."
-  title="Projects, Publications, Research, Posters, Presentations, Technical Reports..."
+  description="A collection of my work."
+  title="Projects, Publications, Research, Posters, Presentations, Technical Reports, Concept Notes..."
 >
   <Pattern />
   <Box>
@@ -71,7 +71,7 @@ const repProjects = projects.filter(project => project.data.type === "rep");
       <Pattern />
       <Box>
         <BoxHeader>
-          <BoxTitle>Technical Reports</BoxTitle>
+          <BoxTitle>Technical Reports & Concept Notes</BoxTitle>
         </BoxHeader>
         {repProjects.map(item => <ProjectItem project={item} />)}
       </Box>
