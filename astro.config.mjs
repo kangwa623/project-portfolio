@@ -6,6 +6,8 @@ import react from "@astrojs/react";
 
 import mdx from "@astrojs/mdx";
 
+import node from '@apphosting/astro-adapter';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://kangwamukuka.web.app',
@@ -13,4 +15,8 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  output: 'server',
+  adapter: node({
+    mode: 'standalone',
+  }),
 });
