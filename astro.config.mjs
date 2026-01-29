@@ -6,7 +6,7 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://kangwamukuka.web.app',
+  site: 'https://kangwa-mukuka.web.app',
   integrations: [react(), mdx()],
   vite: {
     plugins: [tailwindcss()],
