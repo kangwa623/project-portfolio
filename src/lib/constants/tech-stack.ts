@@ -6,7 +6,7 @@ import {
   Java,
   CPlusPlus,
   JavaScript,
-  TypeScript
+  TypeScript,
   
   // Frontend Technologies
   Bootstrap5,
@@ -18,11 +18,11 @@ import {
   Firebase,
   NodeJs,
   FastAPI,
-  Django
+  Django,
 
   // Databases & Caching
   MySQL,
-  PostgreSQL
+  PostgreSQL,
 
   // DevOps & Development Tools
   Git,
