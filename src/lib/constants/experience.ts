@@ -31,7 +31,7 @@ export const EXPERIENCES: Experience[] = [
     ],
   },
   {
-    company: "IEEE UNZA Student Branch",
+    company: "Institute of Electrical and Electronics Enigneers (IEEE) UNZA Student Branch",
     positions: [
       {
         title: "Chairperson",
@@ -107,6 +107,8 @@ export const EXPERIENCES: Experience[] = [
     ],
   },
 
+
+/* 
   {
     company: "EIZ UNZA Student Chapter",
     positions: [
@@ -129,9 +131,11 @@ export const EXPERIENCES: Experience[] = [
       },
     ],
   },
+*/
+
 
   {
-    company: "Google Developer Student Club UNZA Student Chapter",
+    company: "Google Developer Student Club (GDSC) UNZA Student Chapter",
     positions: [
       {
         title: "Technical Lead",
