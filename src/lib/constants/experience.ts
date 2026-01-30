@@ -150,7 +150,7 @@ export const EXPERIENCES: Experience[] = [
     company: "Education",
     positions: [
       {
-        title: "BSc. Computer Science (Major: Computer System Engineering) | University of Zambia (UNZA)",
+        title: "BSc. Computer Science (Major: Computer Systems Engineering) | University of Zambia (UNZA)",
         year: "Feb 2022 - Oct 2025",
         description: `
 - ♦ Built a strong foundation in **software engineering**, focusing on **web development** and **UI/UX principles**.

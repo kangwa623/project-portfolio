@@ -1,9 +1,12 @@
+// all developer icons are gotten from 'https://xandemon.github.io/developer-icons/icons/All/'
+
 import {
   // Programming Languages
   Python,
   Java,
   CPlusPlus,
   JavaScript,
+  TypeScript
   
   // Frontend Technologies
   Bootstrap5,
@@ -15,12 +18,15 @@ import {
   Firebase,
   NodeJs,
   FastAPI,
+  Django
 
   // Databases & Caching
   MySQL,
+  PostgreSQL
 
   // DevOps & Development Tools
   Git,
+  PyTorch
 } from "developer-icons";
 
 // import HonoIcon from '@/components/ui/icons/hono.astro'
@@ -49,6 +55,13 @@ export const TECH_STACK = [
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     icon: JavaScript,
   },
+  {
+    title: "TypeScript",
+    href: "https://www.typescriptlang.org/",
+    icon: TypeScript,
+  },
+
+  TypeScript
 
   // Frontend Technologies
   {
@@ -89,6 +102,12 @@ export const TECH_STACK = [
     href: "https://fastapi.tiangolo.com/",
     icon: FastAPI
   },
+  {
+    title: "Django",
+    href: "https://www.djangoproject.com/",
+    icon: Django
+  },
+
 
   // Databases & Caching
   {
@@ -96,12 +115,22 @@ export const TECH_STACK = [
     href: "https://www.mysql.com/",
     icon: MySQL,
   },
+  {
+    title: "PostgreSQL",
+    href: "https://www.postgresql.org/",
+    icon: PostgreSQL,
+  },
 
   // DevOps & Development Tools
   {
     title: "Git",
     href: "https://git-scm.com/",
     icon: Git,
+  },
+  {
+    title: "PyTorch",
+    href: "https://pytorch.org/",
+    icon: PyTorch,
   },
 
   // Miscellaneous
