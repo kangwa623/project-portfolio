@@ -26,7 +26,7 @@ import {
 
   // DevOps & Development Tools
   Git,
-  PyTorch
+  PyTorch,
 } from "developer-icons";
 
 // import HonoIcon from '@/components/ui/icons/hono.astro'
@@ -60,8 +60,6 @@ export const TECH_STACK = [
     href: "https://www.typescriptlang.org/",
     icon: TypeScript,
   },
-
-  TypeScript
 
   // Frontend Technologies
   {
@@ -100,12 +98,12 @@ export const TECH_STACK = [
   {
     title: "FastAPI",
     href: "https://fastapi.tiangolo.com/",
-    icon: FastAPI
+    icon: FastAPI,
   },
   {
     title: "Django",
     href: "https://www.djangoproject.com/",
-    icon: Django
+    icon: Django,
   },
 
 
