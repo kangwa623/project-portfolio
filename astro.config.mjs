@@ -11,6 +11,5 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  output: 'static', // Change from 'server' to 'static'
-  // Remove the adapter configuration for static output
+  output: 'static', // changed from 'server' to 'static'
 });
