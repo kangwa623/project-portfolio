@@ -7,7 +7,7 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         title: "Research Assistant - Enterprise Medical Imaging | DataLab Research Group",
-        year: "Mar 2025 - Present",
+        year: "Sep 2025 - Present",
         description: `
 - ♦ Lemme build something cool first... then I'll tell you what I did 😉.
             `,
@@ -155,7 +155,7 @@ export const EXPERIENCES: Experience[] = [
     positions: [
       {
         title: "BSc. Computer Science (Major: Computer Systems Engineering) | University of Zambia (UNZA)",
-        year: "Feb 2022 - Oct 2025",
+        year: "Feb 2022 - May 2026",
         description: `
 - ♦ Built a strong foundation in **software engineering**, focusing on **web development** and **UI/UX principles**.
 - ♦ Gained hands-on experience with **C/C++ and Linux**, enhancing problem-solving and system-level programming skills.
