@@ -9,6 +9,8 @@ export const EXPERIENCES: Experience[] = [
         title: "Research Assistant - Enterprise Medical Imaging | DataLab Research Group",
         year: "Sep 2025 - Present",
         description: `
+- ♦ I'm among the 10 researchers selected across Africa in the AFRICAI (African Network for Artificial Intelligene in Biomedical Imaging) 
+Mentorship Program to advance the use of AI and Machine learning in 3D medical imaging for healthcare in Zambia.
 - ♦ Developing software solutions to enhance radiology workflows at the Cancer Diseases Hospital (CDH) in Zambia.
 - ♦ Researching on the use of Vision Language Models to semi-automate cervical cancer report generation at CDH.
 
@@ -170,11 +172,9 @@ University of Zambia.
         title: "AFRICAI Mentorship Award",
         year: "Issued by African Network for Artificial Intelligence in Biomedical Imaging • Sep 2025",
         description: `
-- ♦ Implemented **backend functionalities**, designed **database models**, and optimized APIs using **FastAPI, Python, and MongoDB**.
-- ♦ Developed and maintained a **background worker system** using **ARQ and Redis**.
-- ♦ Brainstormed and debugged **new features and functionalities** with the engineering team.
-- ♦ Refactored and cleaned code, implementing **better coding patterns** and enforcing **formatting & linting rules** using **Ruff**.
-- ♦ Deployed backend services using **Docker & Docker Compose** and improved **CI/CD pipelines** with **GitHub Actions**.
+- ♦ One of the selected candidates for the 10 AFRICAI Mentorship Awards 2025.
+- ♦ The AFRICAI Mentorship Awards support 10 African students pursuing AI research through dedicated mentorship.
+- ♦ Visit: [https://africai.org/support/](https://africai.org/support/) for more information.
             `,
         skills: [
           "NLP",
