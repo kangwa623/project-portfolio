@@ -1,5 +1,5 @@
 export const PROFILE_INFO = {
-  role: 'Software Developer',
+  role: 'Software Developer | Research Assistant',
   logo: 'K.E.Mukuka',
   slogan: 'Think, Create, Innovate...',
   displayName: "Kangwa Mukuka",
