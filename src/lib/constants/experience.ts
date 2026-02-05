@@ -129,10 +129,11 @@ University of Zambia.
     company: "Education",
     positions: [
       {
-        title: "BSc. Computer Science (Major: Computer Systems Engineering) | University of Zambia (UNZA)",
+        title: "Bachelor of Science - BSc., Computer Science | University of Zambia (UNZA)",
         year: "Feb 2022 - May 2026",
         description: `
-- ♦ Built a strong foundation in **computer science**, fundamentals. 
+- ♦ Major: **Computer Systems Engineering**.
+- ♦ Built a strong foundation in **Computer Science**, fundamentals.
 - ♦ Gained hands-on experience with **C++ and Java**, enhancing problem-solving and system-level programming skills.
 - ♦ Developed expertise in **relational databases** and **networking**, applying concepts to real-world applications.
 - ♦ Strengthened **communication and teamwork skills** through group projects, presentations, and technical discussions.
