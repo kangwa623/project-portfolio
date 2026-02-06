@@ -5,7 +5,7 @@ export const PROFILE_INFO = {
   displayName: "Kangwa Mukuka",
   email: "kangwamuk3020@gmail.com",
   about: `
-I'm **software developer** passionate about crafting useful and impactful solutions. 
+I'm a **software developer** passionate about crafting useful and impactful solutions. 
 As a **research assistant** I am finding ways of incorporating the use of **Machine Learning** 
 and **Artificial Intelligence** in enhaning radiology workflows for healthcare in Zambia with a focus on **Vision Language Models** 
 for computed tomography.
