@@ -9,11 +9,10 @@ export const EXPERIENCES: Experience[] = [
         title: "Research Assistant - Enterprise Medical Imaging | DataLab Research Group",
         year: "Sep 2025 - Present",
         description: `
-- ♦ I'm among the 10 researchers selected across Africa in the AFRICAI (African Network for Artificial Intelligene in Biomedical Imaging) 
-Mentorship Program to advance the use of AI and Machine learning in 3D medical imaging for healthcare in Zambia.
-- ♦ Developing software solutions to enhance radiology workflows at the Cancer Diseases Hospital (CDH) in Zambia.
-- ♦ Researching on the use of Vision Language Models to semi-automate cervical cancer report generation at CDH.
-
+- ♦ Contributing to the research and integration of Vision Language Models to semi-automate cervical cancer report 
+generation at the Cancer Diseases Hospital, with the aim of reducing the time to 1/3, addressing the 3,600+ 
+annual cervical cancer cases in Zambia.
+- ♦ I was selected as one of 10 mentees across Africa by the African Network for Artificial Intelligence in Biomedical Imaging (AFRICAI).
             `,
         skills: [
           "PyTorch",
@@ -34,8 +33,9 @@ Mentorship Program to advance the use of AI and Machine learning in 3D medical i
         title: "Chairperson",
         year: "Dec 2024 - Nov 2025",
         description: `
-- ♦ Spearheaded and oversaw technical activities for students interested in STEM by facilitating educational talks,
-industrial trips, project proposals and leading the Student Branch Executive Team.
+- ♦ Led an executive team of 11 students and an association of 560+ student members.
+- ♦  Coordinated industrial tours and participation in continental contests, emerging 3rd across Africa in one of them. 
+- ♦ Grew participation by 20%. 
             `,
         skills: [
           "Leadership",
@@ -117,8 +117,9 @@ industrial trips, project proposals and leading the Student Branch Executive Tea
         title: "Technical Lead",
         year: "Sep 2023 - Jun 2024",
         description: `
-- ♦ Guided the technical aspects of the club's projects and initiatives, ensuring their successful implementation at the
-University of Zambia. 
+- ♦ Engaged 55+ students in technical activities by conducting information sessions and hosting fireside chats with 
+inspiring Software Engineering industry leaders. 
+- ♦  I actively recruited GDSC members during 1st year orientation. 
             `,
         skills: ["Problem-solving", "Public speaking", "Interpersonal skills", "Team building", "Community engagement"],
       },
@@ -133,10 +134,8 @@ University of Zambia.
         year: "Feb 2022 - May 2026",
         description: `
 - ♦ Major: **Computer Systems Engineering**.
-- ♦ Built a strong foundation in **Computer Science**, fundamentals.
-- ♦ Gained hands-on experience with **C++ and Java**, enhancing problem-solving and system-level programming skills.
-- ♦ Developed expertise in **relational databases** and **networking**, applying concepts to real-world applications.
-- ♦ Strengthened **communication and teamwork skills** through group projects, presentations, and technical discussions.
+- ♦ Project: Enhancing Radiology Workflows: Semi-automated Cervical Cancer Reporting at the Cancer Diseases Hospital (Zambia).
+- ♦ Supervisors: Dr. Lighton Phiri, Dr. Mayumbo Nyirenda 
             `,
         skills: [
           "C++",
