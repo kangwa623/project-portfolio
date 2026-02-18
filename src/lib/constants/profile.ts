@@ -7,7 +7,7 @@ export const PROFILE_INFO = {
   about: `
 I'm a **software developer** passionate about crafting useful and impactful solutions. 
 As a **research assistant** I am finding ways of incorporating the use of **Machine Learning** 
-and **Artificial Intelligence** in enhaning radiology workflows for healthcare in Zambia with a focus on **Vision Language Models** 
+and **Artificial Intelligence** in enhaning radiology workflows for healthcare in Zambia with a focus on **Natural Language Processing** 
 for computed tomography.
 `,
 } as const;
